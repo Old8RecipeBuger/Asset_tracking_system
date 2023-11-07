@@ -1,0 +1,94 @@
+body {
+    font-family: Helvetica;
+    font-size: 16px;
+    background-color: #f5f5f5;
+}
+
+h1{
+    font-family: Helvetica;
+    font-size: 26px;
+}
+
+/* Style for the container */
+.container {
+    max-width: 55%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+}
+
+/* Style for the table */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Style for table headers */
+.table th {
+    text-align: left;
+    padding: 10px;
+    background-color: #eceeeb;
+}
+
+/* Style for table cells */
+.table td {
+    padding: 10px;
+}
+
+/* Style for input fields */
+input[type="text"], select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Style for submit button */
+button[type="submit"] {
+    background-color:#00784E;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 16px;
+    height: 90%;
+}
+
+/* Style for select options */
+option {
+    font-size: 16px;
+}
+
+.bcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.btn{
+    width: 30%;
+    background-color:#00784E;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 16px;
+}

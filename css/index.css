@@ -1,0 +1,32 @@
+.col-sm-6{
+    width: 48%;
+    height: 250px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    text-align: center;
+    border-style: solid;
+    border-color:#40ba8d;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+.row {
+    margin-bottom: 30px;
+}
+
+h1{
+    font-family: Helvetica;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+p{
+    font-family: Helvetica;
+    font-size: 25px;
+}
+
+h5{
+    font-family: Helvetica;
+    font-size: 16px;
+}

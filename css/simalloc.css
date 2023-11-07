@@ -1,0 +1,43 @@
+.simalloctitle{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 40px;
+    font-family: Georgia;
+}
+.row{
+    text-align: center;
+}
+
+.col-sm-6{
+    background-color: #dfecec;
+    font-size: 20px;
+    margin-bottom: 20px;
+    height:60px;
+}
+
+.siminfo{
+    padding-top: 15px;
+}
+
+.dropdown_sim{
+    margin-top: 15px;
+}
+
+.col-sm-12{
+    text-align: center;
+}
+
+.savebtn{
+    color: white;
+    background-color:#58e6f0;
+    border-radius: 5px;
+    border: none;
+    font-size:20px;
+    text-align: center;
+    height: 50px;
+    width: 200px;
+}
+
+.savebtn:hover{
+    background-color:#1a8cb9;
+}

@@ -1,0 +1,42 @@
+.navbar-inverse{
+    background-color: #fff !important;
+    border: 0 !important;
+    height: 60px !important;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Helvetica Neue', !important;
+    border-bottom: 2px solid #40ba8d !important; 
+}
+
+.navbar-brand{
+    color:black !important;
+}
+.navbar-brand:hover{
+    color:#40ba8d !important;
+}
+
+nav.navbar li a {
+    color:black !important;
+}
+
+nav.navbar li a:hover{
+    color:#40ba8d !important;
+}
+
+.navbar-header .img-logo {
+    height: 50px;
+    margin-right: 20px;
+    padding: 5px;
+}
+
+.dropdown-toggle{
+    background-color: #fff !important;
+}
+
+.dropdown-menu{
+    background-color: #fff !important;
+}
+
+.dropdown-menu li a {
+    background-color: #fff !important;
+}

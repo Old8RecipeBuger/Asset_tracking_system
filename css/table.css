@@ -1,0 +1,73 @@
+body {
+    background-color: #ffffff;
+    font-family: Helvetica;
+}
+
+.container{
+    margin-bottom: 40px;
+}
+
+/* Center the page title */
+h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Helvetica';
+    font-weight: bold;
+}
+
+/* Style the table */
+table {
+    margin: 0 auto; /* Center the table */
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Style the table header */
+th {
+    background-color: #40ba8d;
+    color: rgb(5, 5, 31);
+    font-weight: bold;
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+/* Style the table rows */
+td {
+    border: 1px solid #a09d9d;
+    padding: 8px;
+}
+
+/* Style the table rows on hover */
+tr:hover {
+    background-color: #11aa72;
+}
+
+/* Style the links in the table */
+a {
+    color: #015439;
+}
+
+/* Style the search icon in the table */
+.glyphicon-search {
+    font-size: 16px;
+}
+
+.bcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.btn-sim{
+    width: 30%;
+    background-color:#00784E;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 20px;
+}
+

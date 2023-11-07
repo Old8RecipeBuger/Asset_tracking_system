@@ -1,0 +1,91 @@
+body {
+    font-family: Helvetica;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+legend {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.savebtn {
+    width: 30%;
+    background-color:#00784E;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 16px;
+}
+
+span[data-repeater-delete] {
+    background-color:#bd2020;
+    color: white;
+    padding: 3px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+span[data-repeater-create] {
+    background-color:#26c6cc;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+div[data-repeater-list] {
+    margin-bottom: 30px;
+}
+
+div[data-repeater-item] {
+    margin-bottom: 30px;
+}
+
+select {
+    width: 35%;
+    padding: 3px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type="text"]{
+    width: 60%;
+    padding: 4px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type="date"]{
+    padding: 3px;
+    width: 75%;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type="checkbox"]{
+    padding: 3px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.alert-danger {
+    background-color: #f2dede;
+    color: #a94442;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ebccd1;
+    border-radius: 5px;
+}

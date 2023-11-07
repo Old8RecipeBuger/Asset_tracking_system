@@ -1,0 +1,131 @@
+:root {
+    --tav-dark: #015439;
+    --rich-white: #eceeeb;
+    --highlight-blue: #67c9d5;
+    --tav-mid: #00784e;
+    --rich-black: #000f1d;
+    --highlight-green: #b7cc44;
+    --tav-light: #40ba8d;
+    --tav-red: #f37776;
+    --tav-orange: #f68c57;
+}
+
+html {
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    color: #000f1d;
+    font-family: "Roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+    background-color: var(--rich-white);
+    margin: 0;
+    min-height: 100vh;
+}
+
+.container {
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 100%;
+    max-width: 400px;
+}
+
+.flip-container {
+    perspective: 1000px;
+}
+
+.login-form, .register-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(1,84,57,0.3);
+    position: absolute;
+    width: 100%;
+    min-width: 350px;
+    backface-visibility: hidden;
+    transition: transform 0.6s ease-in-out;
+}
+
+.login-form {
+    z-index: 1;
+}
+
+.register-form {
+    transform: rotateY(180deg);
+}
+
+
+.login-form h2, .register-form h2 {
+    margin: 0 0 20px;
+}
+
+.login-form form, .register-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form label, .register-form label {
+    margin-bottom: 10px;
+}
+
+.login-form input[type="email"], .login-form input[type="password"], .register-form input[type="text"], .register-form input[type="email"], .register-form input[type="password"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: var(--rich-white);
+    }
+
+.login-form button, .register-form button {
+    background-color: var(--tav-mid);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.login-form button:hover, .register-form button:hover {
+    background-color: var(--tav-light);
+}
+
+.error {
+    color: #ff0000;
+    margin-bottom: 20px;
+}
+
+.register-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.register-link a {
+    color: var(--tav-dark);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.register-link a:hover {
+    color: var(--tav-mid);
+}
+
+p.text {
+    font-size: 20px; 
+    font-family: 'Helvetica Neue'; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.alert-warning{
+    text-align: center;
+}
+
+.alert-danger{
+    text-align: center;
+}
