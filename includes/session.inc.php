@@ -63,7 +63,7 @@
 
         } 
         else { //no cookie / user not found
-            //header('Location: /subpages/login.php');
+            header('Location: /subpages/login.php');
             exit();
         }
     }
